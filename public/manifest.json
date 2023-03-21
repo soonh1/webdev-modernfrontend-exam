@@ -1,0 +1,20 @@
+{
+  "name": "App that handles Invoices",
+  "short_name": "Invoices App",
+  "icons": [
+    {
+      "src": "/img/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+  },
+  {
+      "src": "img/icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+  }
+  ],
+    "theme_color": "#7C5DFA",
+    "background_color": "#F8F8FB",
+    "start_url": "/",
+    "display": "fullscreen"
+}

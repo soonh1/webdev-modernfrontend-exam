@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;700&display=swap");
+@import "@/assets/scss/reset.scss";
+@import "@/assets/scss/variables.scss";
+@import "@/assets/scss/typography.scss";
+@import "@/assets/scss/mixins.scss";
+
+body {
+  height: 100%;
+  background-color: $backgroundColorPrimaryLight;
+}
+
+.createbutton {
+  background-color: $backgroundDeepPurple;
+  padding: 0.6rem 0.9rem 0.6rem 0.9rem;
+  border-radius: 50px;
+  border-style: none;
+  color: white;
+  font-weight: $titleFontWeight;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  &__icon {
+    background-color: white;
+    padding: 1rem;
+    // content: url(../assets/images/icon-plus.svg);
+    margin: 0 auto;
+    margin-right: 0.8rem;
+    border-radius: 25px;
+  }
+}
+
+.createbutton:hover {
+  background-color: #9277ff;
+}
+
+.pendingbutton {
+  background-color: $backgroundDeepPurple;
+  color: white;
+  font-weight: $titleFontWeight;
+  border-style: none;
+  padding: 1rem;
+  border-radius: 50px;
+  cursor: pointer;
+  width: 10rem;
+
+  &:hover {
+    background-color: $backgroundHoverLightPurple;
+  }
+}

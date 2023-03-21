@@ -1,0 +1,13 @@
+@import "@/assets/scss/variables.scss";
+
+a {
+    text-decoration: none;
+    color: $colorPrimaryDark;
+}
+
+h1 {
+    font-weight: $titleFontWeight;
+    font-size: $titleFontSize;
+    line-height: $titleLineHeight;
+    letter-spacing: $titleLetterSpacing;
+}

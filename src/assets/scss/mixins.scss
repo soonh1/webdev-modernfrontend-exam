@@ -1,0 +1,11 @@
+@mixin screenMin {
+    @media (max-width: 1000px) { @content; }
+  }
+
+@mixin screenMed {
+  @media (max-width: 600px) { @content; }
+}
+
+@mixin screenMax {
+  @media (max-width: 470px) { @content; }
+}
