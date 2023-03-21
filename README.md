@@ -1,5 +1,7 @@
 # mfd-exam-project-grupppe5-webdev-modernfrontend-exam
 
+## Live demo https://rainbow-entremet-38a8db.netlify.app/
+
 ## Project setup
 ```
 npm install
